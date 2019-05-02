@@ -1,10 +1,3 @@
-// OOP244_B: Final Project - Milestone5
-// File:     PosApp.cpp
-// Date:     11-April-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
 #define _CRT_SECURE_NO_WARNINGS
 
 // include libraries
@@ -109,7 +102,7 @@ namespace ict {
       else {
          while (!file.eof()) {
 
-            file.get(id);  // REFERENCE: I had "file >> id", which gave me a trouble, so Eudenir Scheffer Junior gave me the idea of "file.get(id)"  
+            file.get(id);    
 
             if (id == 'P' || id == 'N') {
 
@@ -278,7 +271,6 @@ namespace ict {
       char id;
       double total = 0.0;
 
-      // REFERENCE: because Eudenir Scheffer Junior already had searched for date/time, I saved my time and took it from him, only that part of Date/Time
       time_t timer;
       timer = time(NULL);
       struct tm *now = localtime(&timer);
@@ -301,7 +293,7 @@ namespace ict {
       // loads all the items from the file
       while (!file.eof()) {
 
-         file.get(id); // REFERENCE: I had "file >> id", which gave me a trouble, so Eudenir Scheffer Junior gave me the idea of "file.get(id)"
+         file.get(id); 
 
          if (id == 'P' || id == 'N') {
             // ignore the comma (,)
@@ -314,7 +306,7 @@ namespace ict {
                item.load(file);
                // calculate total price
                total += item.quantity() * item.cost();
-               cout << "| " << item << endl; // REFERENCE: I had "item.write(cout, true)", which gave me a trouble, so Eudenir Scheffer Junior gave me the idea of "cout << "| " << item << endl;"
+               cout << "| " << item << endl; 
             }
             // create a NonPerishable instance
             else if (id == 'N') {
@@ -323,7 +315,7 @@ namespace ict {
                item.load(file);
                // calculate total price
                total += item.quantity() * item.cost();
-               cout << "| " << item << endl; // REFERENCE: I had "item.write(cout, true)", which gave me a trouble, so Eudenir Scheffer Junior gave me the idea of "cout << "| " << item << endl;"
+               cout << "| " << item << endl; 
             }
          }
       }
@@ -372,11 +364,11 @@ namespace ict {
       // ask for the sku until exit is false
       do {
          cout << "Sku: ";
-         cin.get(sku, MAX_SKU_LEN); // REFERENCE: I had "cin >> sku", which gave me a trouble, so Eudenir Scheffer Junior gave me the idea of "cin.get"
+         cin.get(sku, MAX_SKU_LEN); 
          cin.ignore();
 
          // if sku is an empty string then it shows the bill and exits the loop
-         if (!strcmp(sku, "")) {  //es>>>>>>>>>>>
+         if (!strcmp(sku, "")) {  
             showBill();
             exit = true;
          }
