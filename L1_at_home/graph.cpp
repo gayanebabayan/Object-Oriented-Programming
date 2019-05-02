@@ -1,9 +1,3 @@
-/*
-Name:  Gayane Babayan
-ID:    107-061-160
-Email: gbabayan@myseneca.ca
-*/
-
 #include <iostream>
 #include "graph.h"
 #include "tools.h"
