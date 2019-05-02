@@ -1,8 +1,3 @@
-// Name: Gayane Babayan
-// Date: 20-March-2017
-// File: workshop8-inLab
-
-
 #include "Account.h"
 
 using namespace std;
