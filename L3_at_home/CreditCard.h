@@ -1,11 +1,4 @@
 #pragma once
-// OOP244_B: Workshop3-atHome
-// File:     CreditCard.h
-// Date:     02-Feb-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
 
 #ifndef SICT_CREDITCARD_H
 #define SICT_CREDITCARD_H
