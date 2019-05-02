@@ -1,10 +1,3 @@
-// OOP244_B: Workshop5-atHome
-// File:     Fraction.cpp
-// Date:     17-Feb-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
 #include "Fraction.h"
 
 using namespace std;
@@ -96,18 +89,6 @@ namespace sict{
        return added;
     }
 
-    // TODO: Copy-paste the implementation of member operator* function from the in_lab part answer HERE
-/*    Fraction Fraction::operator*(const Fraction& multiplication)  // MAYBE MUST BE DELETED ??????
-    {
-       Fraction multiply;
-
-       if ((isEmpty() == false) && (multiplication.isEmpty() == false)) {
-          multiply.num = (num * multiplication.num);
-          multiply.denom = (denom * multiplication.denom);
-       }
-    return multiply;   
-    } */   // MAYBE must be deleted ????????
-
     Fraction Fraction::operator*(const Fraction& multiplication)
     {
 
@@ -118,8 +99,7 @@ namespace sict{
        reduce();
 
        return *this;
-    }
-    
+    }    
 
     // TODO: write the implementation of member operator== function HERE
     bool Fraction::operator==(const Fraction& equal) const
@@ -128,16 +108,9 @@ namespace sict{
               && ((num * equal.denom) != (denom * equal.num));
    }
 
-    // TODO: write the implementation of member operator!= function HERE
-
-
     // TODO: write the implementation of member operator double () function HERE
     Fraction::operator double() const {
 
        return *this;
-    }
-
-    // TODO: write the implementation of member operator double () function HERE
-    
-    
+    }  
 }
