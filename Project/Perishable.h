@@ -1,11 +1,3 @@
-// OOP244_B: Final Project - Milestone4
-// File:     Perishable.h
-// Date:     31-March-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
-
 #ifndef ICT_PERISHABLE_H__
 #define ICT_PERISHABLE_H__
 
