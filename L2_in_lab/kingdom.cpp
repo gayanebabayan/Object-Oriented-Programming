@@ -1,12 +1,3 @@
-// OOP244_B: Workshop -2
-// Date:     23-Jan-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
-
-
-// TODO: include the necessary headers
 #include <iostream>
 #include "kingdom.h"
 using namespace std;
