@@ -1,10 +1,3 @@
-// OOP244_B: Final Project - Milestone4
-// File:     Perishable.cpp
-// Date:     31-March-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
 #define _CRT_SECURE_NO_WARNINGS
 // lib includes
 #include <iostream>
