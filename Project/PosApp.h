@@ -1,12 +1,4 @@
 #pragma once
-// OOP244_B: Final Project - Milestone5
-// File:     PosApp.h
-// Date:     11-April-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
-// compilation safeguards
 #ifndef ICT_POSAPP_H_
 #define ICT_POSAPP_H_
 
