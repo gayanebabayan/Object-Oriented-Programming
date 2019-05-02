@@ -1,10 +1,3 @@
-// OOP244_B: Workshop5-atHome
-// File:     w5_at_home.cpp
-// Date:     17-Feb-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
 #include <iostream>
 #include "Fraction.h"
 
