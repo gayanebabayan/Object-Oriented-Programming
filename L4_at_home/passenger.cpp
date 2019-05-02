@@ -1,23 +1,10 @@
-// OOP244_B: Workshop4-atHome
-// File:     w4_at_home.cpp
-// Date:     11-Feb-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
-
-// TODO: add your headers here
 #include <iostream>
 #include <cstring>
 #include "passenger.h"
 
-// TODO: add the namespaces that you will be using here
 using namespace std;
 
-// TODO: holiday namespace here
 namespace holiday {
-   
-   // TODO: add the default constructor here
    Passenger::Passenger() {
 	  setEmpty();
    }
@@ -90,7 +77,6 @@ namespace holiday {
       } 
    }
    
-   // TODO: add the canTravelWith(...) function here
    bool Passenger::canTravelWith(const Passenger& P) const {
    
 	   bool travel;
@@ -103,15 +89,12 @@ namespace holiday {
 	   return travel;
    }
    
-   // TODO: add the isEmpty() function here
    bool Passenger::isEmpty() const {
       
 	   return ((m_name[0] == '\0') && (m_destination[0] == '\0') && (m_departureYear == 0) && (m_departureMonth == 0) && (m_departureDay == 0));
 		       
    }
    
-   // below is the member function already provided
-   // TODO: read it and understand how it accomplishes its task
    void Passenger::display(bool nameOnly) const
    {
       if (false == this->isEmpty())
