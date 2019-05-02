@@ -1,10 +1,3 @@
-// OOP244_B: Workshop5-atHome
-// File:     Fraction.h
-// Date:     17-Feb-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
 #ifndef SICT_Fraction_H__
 #define SICT_Fraction_H__
 
