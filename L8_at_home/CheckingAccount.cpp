@@ -5,7 +5,6 @@ using namespace std;
 
 namespace ict{    
 	
-	// TODO: define CheckingAccount class member functions here     
    CheckingAccount::CheckingAccount(double initialBal, double transFee)
    :Account(initialBal) {
       if (transFee < 0)
@@ -15,13 +14,8 @@ namespace ict{
    }
 
    void CheckingAccount::chargeFee() {
-      setBalance(getBalance() - transactionFee);  // Is this correct ???
+      setBalance(getBalance() - transactionFee);
    }
-
-   // override debit & credit
-
-
-
 
    // override the display
    void CheckingAccount::display(std::ostream & ostr) const {
@@ -29,7 +23,4 @@ namespace ict{
       ostr << "Balance: $ " << fixed << setprecision(2) << getBalance() << endl;
       ostr << "Transaction Fee: " << fixed << setprecision(2) << transactionFee << endl;
    }
-
-
-
 }
