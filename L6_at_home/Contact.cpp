@@ -1,11 +1,3 @@
-// OOP244_B: Workshop6-inLab
-// File:     Contact.cpp
-// Date:     27-Feb-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
-
 #include <iostream>
 #include <cstring>
 #include <cmath>
