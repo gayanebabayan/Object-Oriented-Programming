@@ -1,10 +1,3 @@
-// OOP244_B: Workshop3-atHome
-// File:     w3_at_home.cpp
-// Date:     02-Feb-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
 #include <iostream>
 #include "CreditCard.h"
 
