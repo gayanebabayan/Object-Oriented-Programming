@@ -1,9 +1,3 @@
-// Name: Gayane Babayan
-// Date: 27-March-2017
-// File: String.cpp
-// Workshop: 9-inLab
-// ID:   107-061-160
-
 #include <cstring>
 #include <iostream>
 #include "String.h"
