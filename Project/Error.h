@@ -1,11 +1,3 @@
-// OOP244_B: Final Project - Milestone1
-// File:     Error.h
-// Date:     31-March-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
-// compilation safegaurds
 #ifndef ICT_ERROR_H_
 #define ICT_ERROR_H_
 
