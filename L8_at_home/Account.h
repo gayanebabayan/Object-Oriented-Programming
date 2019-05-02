@@ -1,8 +1,3 @@
-// Name: Gayane Babayan
-// Date: 20-March-2017
-// File: workshop8-inLab
-
-
 #ifndef ICT_ACCOUNT_H__
 #define ICT_ACCOUNT_H__
 
@@ -31,9 +26,7 @@ namespace ict{
 			virtual bool debit(int amount);
 
 			// TODO: Write a function prototype for the virtual function display
-			virtual void display(std::ostream& ostr) const = 0;
-
-			
+			virtual void display(std::ostream& ostr) const = 0;			
    };
 };
 #endif
