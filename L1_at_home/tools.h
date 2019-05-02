@@ -1,9 +1,3 @@
-/*
-Name:  Gayane Babayan
-ID:    107-061-160
-Email: gbabayan@myseneca.ca
-*/
-
 #ifndef SICT_TOOLS_H_
 #define SICT_TOOLS_H_
 
