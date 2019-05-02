@@ -1,11 +1,3 @@
-// OOP244_B: Final Project - Milestone3
-// File:     POS.h
-// Date:     31-March-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
-// compilation safeguards
 #ifndef ICT_POS_H_
 #define ICT_POS_H_
 
