@@ -1,10 +1,3 @@
-// OOP244_B: Final Project - Milestone1
-// File:     Error.cpp
-// Date:     31-March-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
 #define _CRT_SECURE_NO_WARNINGS 
 
 #include <cstring>
