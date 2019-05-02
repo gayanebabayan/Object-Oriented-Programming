@@ -1,12 +1,3 @@
-// OOP244_B: Final Project - Milestone4
-// File:     NonPerishable.h
-// Date:     31-March-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
-
-
 #ifndef ICT_NONPERISHABLE_H__
 #define ICT_NONPERISHABLE_H__
 
