@@ -1,13 +1,6 @@
-// OOP244_B: Final Project - Milestone3
-// File:     PosIO.h
-// Date:     31-March-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
 #ifndef ICT_POSIO_H__
 #define ICT_POSIO_H__
-// includes go here
+
 #include <fstream>
 #include <iostream>
 
@@ -16,7 +9,7 @@ namespace ict {
 	class PosIO {
 
 	public:
-		// pure virutal methods go here
+		// pure virutal methods
 		virtual std::fstream& save(std::fstream& file)const = 0;
 		virtual std::fstream& load(std::fstream& file) = 0;
 		virtual std::ostream& write(std::ostream& os, bool linear)const = 0;
