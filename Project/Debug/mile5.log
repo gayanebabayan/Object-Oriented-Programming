@@ -1,0 +1,4 @@
+﻿  Date.cpp
+c:\users\gayane\desktop\oop\finalproject\mile-5\mile-5\mile5\pos.h(14): warning C4305: 'initializing': truncation from 'double' to 'float'
+  mile5.vcxproj -> C:\Users\Gayane\Desktop\OOP\FinalProject\mile-5\mile-5\mile5\Debug\mile5.exe
+  mile5.vcxproj -> C:\Users\Gayane\Desktop\OOP\FinalProject\mile-5\mile-5\mile5\Debug\mile5.pdb (Full PDB)
