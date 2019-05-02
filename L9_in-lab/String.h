@@ -1,9 +1,3 @@
-// Name: Gayane Babayan
-// Date: 27-March-2017
-// File: String.h
-// Workshop: 9-inLab
-// ID:   107-061-160
-
 #ifndef SICT_STRING_H_
 #define SICT_STRING_H_
 
