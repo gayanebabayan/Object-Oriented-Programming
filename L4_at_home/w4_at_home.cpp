@@ -1,10 +1,3 @@
-// OOP244_B: Workshop4-atHome
-// File:     w4_at_home.cpp
-// Date:     11-Feb-2017
-// Author:   Gayane Babayan
-// ID:       107-061-160 
-// email:    gbabayan@myseneca.ca
-
 #include <iostream>
 #include "passenger.h"
 
